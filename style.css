@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(6px);
+  z-index: -1;
+}
+body {
+  font-family: "Clash Display", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 100vh;
+  background-image: url(https://wallpaperswide.com/download/world_map_dual_monitor-wallpaper-1600x900.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(8px);
+}
+h1 {
+  padding-top: 0.5rem;
+  color: white;
+  text-shadow: 0px 0px 8px rgb(0, 0, 0);
+  letter-spacing: 1px;
+  font-size: 3rem;
+  text-align: center;
+}
+#tagline {
+  color: white;
+  font-size: 1.2rem;
+  text-shadow: 0px 0px 8px rgb(0, 0, 0);
+  letter-spacing: 1px;
+}
+#search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+#country-input {
+  padding: 0.8rem 1.2rem;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 50px;
+  outline: none;
+  border: 2px solid rgb(67, 114, 255);
+  background-color: rgb(27, 27, 27, 0.6);
+  font-family: inherit;
+  font-size: 1.1rem;
+  color: white;
+  letter-spacing: 1px;
+}
+#country-input:focus::placeholder {
+  opacity: 0;
+}
+#search-btn {
+  padding: 0.8rem 1.2rem;
+  box-shadow: 0px 0px 8px rgb(0, 0, 0, 0.6);
+  background-color: rgb(67, 114, 255, 0.6);
+  border-radius: 50px;
+  border: 2px solid rgb(67, 114, 255);
+  font-family: inherit;
+  font-size: 1.1rem;
+  color: white;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+#search-btn:hover {
+  background-color: rgb(63, 108, 243);
+}

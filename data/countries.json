@@ -1,0 +1,14 @@
+{
+  "Nepal": {
+    "greetings": "Namaste 🙏",
+    "food": "Dal Bhat, Momos",
+    "festivals": "Dashain, Tihar",
+    "funFact": "Home of Mount Everest 🏔️"
+  },
+  "Japan": {
+    "greetings": "Konnichiwa こんにちは",
+    "food": "Sushi, Ramen",
+    "festivals": "Cherry Blossom Festival",
+    "funFact": "Vending machines everywhere!"
+  }
+}

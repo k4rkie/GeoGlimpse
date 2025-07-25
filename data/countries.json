@@ -1,14 +1,86 @@
 {
-  "Nepal": {
-    "greetings": "Namaste 🙏",
-    "food": "Dal Bhat, Momos",
-    "festivals": "Dashain, Tihar",
-    "funFact": "Home of Mount Everest 🏔️"
+  "nepal": {
+    "name": "Nepal",
+    "flag": "🇳🇵",
+    "greeting": "Namaste नमस्ते",
+    "about": "Nepal is a small but culturally rich country nestled in the heart of the Himalayas. Known as the land of Mount Everest, Nepal boasts stunning mountain landscapes, ancient temples, and vibrant festivals. It's a country where Buddhism and Hinduism coexist harmoniously, with spiritual traditions deeply rooted in daily life. Kathmandu, the capital, is a hub of historical architecture and sacred sites, while the countryside offers serene trekking routes like the Annapurna Circuit. Despite its size, Nepal is incredibly diverse in language, culture, and ethnic groups. Its people are known for their warmth and hospitality, always greeting visitors with a heartfelt 'Namaste.'",
+    "food": ["Dal Bhat", "Momos", "Sel Roti"],
+    "festivals": ["Dashain", "Tihar", "Holi"],
+    "funFact": "Nepal has never been colonized and is the birthplace of Lord Buddha.",
+    "cover_img": "https://images.pexels.com/photos/1531660/pexels-photo-1531660.jpeg?cs=srgb&dl=pexels-souvenirpixels-1531660.jpg&fm=jpg"
   },
-  "Japan": {
-    "greetings": "Konnichiwa こんにちは",
-    "food": "Sushi, Ramen",
-    "festivals": "Cherry Blossom Festival",
-    "funFact": "Vending machines everywhere!"
+  "japan": {
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "greeting": "Konnichiwa こんにちは",
+    "about": "Japan is an island nation in East Asia that blends cutting-edge technology with ancient traditions. It’s famous for its cherry blossoms, Shinto shrines, and culinary excellence ranging from sushi to ramen. Tokyo, one of the world’s most advanced cities, coexists with peaceful temples and quiet countryside. Japan’s culture is deeply influenced by Zen philosophy, respect, and etiquette. The country has a rich history of samurai warriors, geishas, and centuries-old festivals. With its efficient bullet trains, futuristic cities, and deep-rooted cultural values, Japan offers a truly unique experience where old and new exist in perfect harmony.",
+    "food": ["Sushi", "Ramen", "Tempura"],
+    "festivals": [
+      "Hanami (Cherry Blossom Viewing)",
+      "Gion Matsuri",
+      "Tanabata"
+    ],
+    "funFact": "Japan has over 5 million vending machines, selling everything from drinks to umbrellas!",
+    "cover_img": "https://auspost.com.au/content/dam/corp/travel-essentials/photo-cherry-blossom--trees-and-mountain-japan.jpg.auspostimage.970*0.169.medium.jpg"
+  },
+  "italy": {
+    "name": "Italy",
+    "flag": "🇮🇹",
+    "greeting": "Ciao",
+    "about": "Italy is a country in Southern Europe celebrated for its art, architecture, history, and gastronomy. It was the heart of the Roman Empire and the birthplace of the Renaissance, home to legendary figures like Leonardo da Vinci and Michelangelo. From the canals of Venice to the ruins of Rome and the rolling vineyards of Tuscany, Italy offers endless beauty. Italian cuisine, including pizza, pasta, and gelato, is beloved worldwide. Each region has its own dialects, traditions, and flavors. Italy’s passionate culture, iconic landmarks like the Colosseum, and charming piazzas make it a dream destination for travelers.",
+    "food": ["Pizza", "Pasta", "Gelato"],
+    "festivals": ["Carnevale di Venezia", "Ferragosto", "Palio di Siena"],
+    "funFact": "Italy has more UNESCO World Heritage sites than any other country.",
+    "cover_img": "https://images.travelandleisureasia.com/wp-content/uploads/sites/4/2024/03/18193041/venice.jpeg"
+  },
+  "brazil": {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "greeting": "Olá",
+    "about": "Brazil is the largest country in South America and one of the most diverse nations on Earth. Known for its stunning natural beauty, Brazil is home to the Amazon Rainforest, the Pantanal wetlands, and iconic beaches like Copacabana. The country is a cultural melting pot, blending indigenous, African, and European influences into vibrant traditions, dance, and music. Cities like Rio de Janeiro and São Paulo buzz with energy, especially during Carnival — the world's largest festival. Football is a national obsession, and Brazilian cuisine reflects its diverse roots, offering dishes like feijoada and pão de queijo. Brazil’s warm spirit and colorful culture make it unforgettable.",
+    "food": ["Feijoada", "Pão de Queijo", "Brigadeiro"],
+    "festivals": ["Carnaval", "Festa Junina", "Parintins Folklore Festival"],
+    "funFact": "Brazil is home to the world’s largest carnival and the Amazon River — the second longest in the world!",
+    "cover_img": "https://d3w13n53foase7.cloudfront.net/medium_58e9ad24_584f_4321_9c5f_5a55e656ac0a_istock_518230906_copia_c2fd89c0d1.jpg"
+  },
+  "egypt": {
+    "name": "Egypt",
+    "flag": "🇪🇬",
+    "greeting": "Salam (سلام)",
+    "about": "Egypt is a country that bridges Africa and the Middle East, known globally for its ancient civilization and monumental wonders. The Great Pyramids of Giza, the Sphinx, and the Nile River are just the beginning of Egypt's historical treasures. Ancient Egyptians were pioneers in writing, architecture, and science. Modern-day Egypt continues to be a cultural and political hub in the Arab world. Cairo, the bustling capital, mixes old Islamic architecture with modern development. Egyptian culture is rooted in tradition and religion, with flavorful dishes, rich storytelling, and a long legacy of art, music, and craftsmanship.",
+    "food": ["Koshari", "Ful Medames", "Molokhia"],
+    "festivals": ["Ramadan", "Sham el-Nessim", "Coptic Christmas"],
+    "funFact": "Ancient Egyptians invented toothpaste and 365-day calendars!",
+    "cover_img": "https://i.natgeofe.com/k/ec7bd89e-aa56-4a42-af86-36318a65ceb4/egypt-mosque.jpg?wp=1&w=1084.125&h=609"
+  },
+  "indonesia": {
+    "name": "Indonesia",
+    "flag": "🇮🇩",
+    "greeting": "Halo",
+    "about": "Indonesia is the largest archipelago in the world with over 17,000 islands, home to active volcanoes, rainforests, and a vibrant cultural mosaic. It's known for its tropical beaches, Bali tourism, spicy food, and incredible biodiversity.",
+    "food": ["Nasi Goreng", "Satay", "Rendang"],
+    "festivals": ["Nyepi", "Waisak", "Bali Arts Festival"],
+    "funFact": "Indonesia is the 4th most populous country and spans three time zones!",
+    "cover_img": "https://www.eyeonasia.gov.sg/images/asean-countries/Indonesia%20snapshot%20cover%20iso.jpg"
+  },
+  "united states": {
+    "name": "United States",
+    "flag": "🇺🇸",
+    "greeting": "Hello",
+    "about": "The USA is a vast and influential country in North America, known for its global cultural impact, innovation, and natural wonders. From the Grand Canyon to New York skyscrapers, it’s a land of diverse geography, people, and freedom of expression.",
+    "food": ["Burgers", "Hot Dogs", "Apple Pie"],
+    "festivals": ["Thanksgiving", "4th of July", "Halloween"],
+    "funFact": "The U.S. has no official language, though English is the most spoken.",
+    "cover_img": "https://s1.1zoom.me/big0/513/USA_Houses_Statue_of_Liberty_New_York_City_515564_1280x850.jpg"
+  },
+  "canada": {
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "greeting": "Hey / Bonjour",
+    "about": "Canada is the second-largest country in the world, known for its breathtaking natural landscapes, maple syrup, and friendly people. It’s a bilingual country with strong multicultural values and iconic wildlife like moose and polar bears.",
+    "food": ["Poutine", "Maple Syrup Pancakes", "Butter Tarts"],
+    "festivals": ["Canada Day", "Calgary Stampede", "Winterlude"],
+    "funFact": "Canada has more lakes than the rest of the world combined!",
+    "cover_img": "https://dpdajlq3ew794.cloudfront.net/20220815070936/canada-ranking-cover.jpg?format=auto&width=2048"
   }
 }
